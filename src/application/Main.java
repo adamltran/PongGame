@@ -39,7 +39,7 @@ public class Main extends Application {
 	public int player1Score = 0;
 	public int player2Score = 0;
 	//Winning Point
-	public int winningPoint = 10;
+	public int winningPoint = 3;
 
 	//Sounds ==========================
 	//Ping Pong Hit
@@ -385,13 +385,13 @@ public class Main extends Application {
 		//Bottom Wall
 		if(shape.getTranslateY() + bDY > HEIGHT - shape.getBoundsInLocal().getHeight() +  shape.getBoundsInLocal().getHeight()/2) {
 			botCollide = true;
-			//			System.out.println("Bottom Side Collission");
+			//			System.out.println("Bottom Side collision");
 
 		}
 		//Top Wall
 		if (shape.getTranslateY() + bDY < shape.getBoundsInLocal().getHeight() - shape.getBoundsInLocal().getHeight()/2) {
 			topCollide = true;
-			//			System.out.println("Top Side Collission");
+			//			System.out.println("Top Side collision");
 		}
 	}
 
