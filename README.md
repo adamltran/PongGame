@@ -21,5 +21,4 @@ The ball bounces off the paddles at a random trajectory within a set range.
 	
 The ball bounces off the top and bottom walls in the appropriate x,y velocities to continue its path while staying in bounds.
 	
-	
-  
+A ping pong sound is triggered every time the ball bounces off a paddle.
