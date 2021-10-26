@@ -1,6 +1,10 @@
 # PongGame
 Basic pong game with two different "AI" computers playing against each other.
 
+
+https://user-images.githubusercontent.com/17242681/138936876-47058060-74f6-4e35-aee0-bd25c7fec03b.mp4
+
+
 Made using JavaFX.
 
 Noteable Features:
